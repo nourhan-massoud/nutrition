@@ -1,0 +1,17 @@
+POST /api/register
+{
+  "name": "Nourhan",
+  "email": "nour@example.com",
+  "password": "123456",
+  "role": "attendee"
+}
+____________________________________________________________________________
+POST /api/login
+{
+  "email": "nour@example.com",
+  "password": "123456"
+}
+____________________________________________________________________________
+GET /api/me
+Header:
+Authorization: Bearer YOUR_TOKEN
